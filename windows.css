@@ -34,13 +34,13 @@
 }
 
 .Input {
-    font: 20px Verdana;
+    font: 15px Verdana;
     border: 1px solid blue;
     width: 300px;
 }
 
 .Submit {
-    font: 10px Verdana;
+    font: 15px Verdana;
     border: 1px solid blue;
     width: 300px;
 }
