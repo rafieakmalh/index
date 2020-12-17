@@ -51,24 +51,3 @@ echo "<br><br>Comments<hr>" . fread($read, 1024);
 fclose($read);
 
 ?>
-CSS CODE:
-body{
-font: 20px Verdana;
-}
-
-h1{
-font: 20px Verdana;
-color: red;
-}
-
-.Input{
-font: 20px Verdana;
-border: 1px solid orange;
-width: 300px;
-}
-
-.Submit{
-font: 20px Verdana;
-border: 1px solid orange;
-width: 300px;
-}
