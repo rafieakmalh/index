@@ -99,18 +99,15 @@
             <p>Ini bisa menjadi plus dan juga minus karena mudah sekali untuk berbuat curang dan permainan menjadi lebih tidak fair karena spesifikasi di pc/laptop itu lebih bagus dan layarnya juga lebih besar yang dapat menguntungkan para playernya sendiri
                 ketimbang menggunakan hp yang layar dan spesifikasinya lebih kecil.</p>
             <form action="" method="POST">
-                <div class="email">
-                    <div class="text">Name</div>
+                <label> Name: <br>
                     <input type="text" name="Name" class="Input" style="width: 225px" required>
-                </div>
-
-                <div class="msg">
-                    <div class="text">Comment</div>
+                </label>
+                <br><br>
+                <label> Comment: <br>
                     <textarea name="Comment" class="Input" style="width: 300px" required></textarea>
-                </div>
-                <div class="btn">
-                    <button class="btn btn-primary" type="submit" name="Submit" style="padding: 5px 10px; margin-left: -13px;">Send</button>
-                </div>
+                </label>
+                <br><br>
+                <button class="btn btn-primary" type="submit" name="Submit" style="padding: 5px 10px; margin-left: -13px;">Send</button>
             </form>
             <?php
 
