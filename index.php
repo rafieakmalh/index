@@ -107,7 +107,7 @@
                     <textarea name="Comment" class="Input" style="width: 300px" required></textarea>
                 </label>
                 <br><br>
-                <button class="btn btn-primary" type="submit" name="Submit" style="padding: 5px 10px; margin-left: -13px;">Send</button>
+                <input type="submit" name="Submit" value="Send Comment" class="Submit">
             </form>
             <?php
 
